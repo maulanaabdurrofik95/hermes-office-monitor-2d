@@ -1,6 +1,6 @@
 {
   "agent": "hermes",
-  "stage": "approved",
+  "stage": "done",
   "tasks": [
     "Orchestrate workflow",
     "Monitor agents",
@@ -10,8 +10,9 @@
     "PRD final synthesized",
     "PRD final updated — OQ terjawab",
     "PRD + Mobile dock grid",
-    "PRD approved"
+    "PRD approved",
+    "Landing page siap"
   ],
-  "note": "ACC diterima. Deploy ke build phase.",
-  "updatedAt": "2026-09-13T12:09:20+07:00"
+  "note": "Preview :4173 jalan, semua route 200, security pass",
+  "updatedAt": "2026-09-13T12:50:03+07:00"
 }
