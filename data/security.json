@@ -1,9 +1,7 @@
 {
   "agent": "security",
-  "stage": "in-review",
-  "tasks": [
-    "Auth audit"
-  ],
-  "note": "Scanning JWT flows",
-  "updatedAt": "2026-09-13T10:33:43+07:00"
+  "stage": "idle",
+  "tasks": [],
+  "note": "Waiting for assignment.",
+  "updatedAt": "2026-09-13T10:34:09+07:00"
 }
