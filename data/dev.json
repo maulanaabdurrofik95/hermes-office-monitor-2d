@@ -1,7 +1,9 @@
 {
   "agent": "dev",
-  "stage": "idle",
-  "tasks": [],
-  "note": "No active backend task in v1 (frontend-only scope).",
-  "updatedAt": "2026-09-13T00:00:00+07:00"
+  "stage": "working",
+  "tasks": [
+    "Auth endpoint"
+  ],
+  "note": "Implementing JWT",
+  "updatedAt": "2026-09-13T10:33:36+07:00"
 }
