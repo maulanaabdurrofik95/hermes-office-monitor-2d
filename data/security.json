@@ -1,7 +1,9 @@
 {
   "agent": "security",
-  "stage": "idle",
-  "tasks": [],
-  "note": "Waiting for assignment.",
-  "updatedAt": "2026-09-13T10:34:09+07:00"
+  "stage": "working",
+  "tasks": [
+    "Audit landing page"
+  ],
+  "note": "Security scan, pantangan check",
+  "updatedAt": "2026-09-13T11:38:22+07:00"
 }
