@@ -1,7 +1,9 @@
 {
   "agent": "frontend",
-  "stage": "idle",
-  "tasks": [],
-  "note": "Waiting for assignment.",
-  "updatedAt": "2026-09-13T10:34:06+07:00"
+  "stage": "working",
+  "tasks": [
+    "Build landing page"
+  ],
+  "note": "Darkblue glassmorphism tema, Node.js/Vite",
+  "updatedAt": "2026-09-13T11:38:22+07:00"
 }
