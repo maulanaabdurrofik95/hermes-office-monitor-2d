@@ -1,0 +1,7 @@
+{
+  "agent": "hermes",
+  "stage": "working",
+  "tasks": ["Orchestrate workflow", "Monitor agents", "Gate approval"],
+  "note": "Orchestrating the build team.",
+  "updatedAt": "2026-09-13T00:00:00+07:00"
+}
