@@ -1,29 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hermes Office Monitor</title>
+  <title>Hermes Office Monitor 2D</title>
+  <meta name="description" content="Live status tiap agent di kantor virtual — pixel chibi, canvas 2D." />
   <!-- Pixel Art Chibi 2D Office Monitor -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>🏢 Hermes Office Monitor</h1>
-    <p class="subtitle">Live status tiap agent di kantor virtual</p>
+    <div class="brand">
+      <h1>🏢 HERMES <span>OFFICE</span> MONITOR</h1>
+      <p class="subtitle">Live status tiap agent di kantor virtual — pixel chibi edition</p>
+    </div>
+    <div class="live-box">
+      <span id="live-dot" class="live-dot"></span>
+      <span id="live-text">LIVE</span>
+    </div>
   </header>
 
-  <main id="office-scene">
-    <canvas id="office" width="800" height="600"></canvas>
+  <main class="office-layout">
+    <div class="canvas-wrap">
+      <canvas id="office" width="800" height="600"></canvas>
+      <div id="canvas-hint">Hover karakter → highlight room · Klik → detail tugas</div>
+    </div>
+
     <!-- Panel detail tugas -->
     <aside id="task-panel">
-      <h2 id="panel-title">Pilih karakter</h2>
-      <ul id="task-list"></ul>
+      <div id="panel-empty" class="panel-placeholder">
+        <div class="ph-emoji">👆</div>
+        <p>Klik karakter di kantor<br/>buat lihat detail tugasnya</p>
+      </div>
+      <div id="panel-body" class="panel-body hidden">
+        <div class="panel-head">
+          <div id="panel-avatar" class="panel-avatar"></div>
+          <div>
+            <div id="panel-name" class="panel-name"></div>
+            <div id="panel-role" class="panel-role"></div>
+          </div>
+          <div id="panel-badge" class="stage-badge"></div>
+        </div>
+        <div id="panel-room" class="panel-room"></div>
+
+        <div class="section-title">PROGRESS STAGE</div>
+        <div class="stage-chips" id="stage-chips"></div>
+
+        <div class="section-title">TUGAS <span id="task-count"></span></div>
+        <ul id="task-list"></ul>
+
+        <div class="section-title">CATATAN</div>
+        <div id="panel-note" class="note-box"></div>
+
+        <div class="meta" id="panel-meta"></div>
+      </div>
     </aside>
   </main>
 
   <footer>
     <p>Update terakhir: <span id="last-update">--</span></p>
+    <p>Poll tiap 2 detik · <span id="online-count">0/5</span> agent online</p>
   </footer>
 
   <script src="script.js"></script>

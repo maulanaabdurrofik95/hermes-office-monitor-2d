@@ -1,0 +1,277 @@
+/* ============================================================
+   HERMES OFFICE MONITOR 2D — STYLES
+   Pixel chibi aesthetic, panel layout, warna per room.
+   UI font biasa (Inter), bukan pixel font.
+   ============================================================ */
+
+/* ---- reset / base ---- */
+*, *::before, *::after { box-sizing: border-box; }
+:root {
+  --ink      : #1b1f23;
+  --ink2     : #2b3037;
+  --panel    : #f7f8fa;
+  --muted    : #6b7280;
+  --muted2   : #9aa0a7;
+  --accent   : #7c4dff;
+  --accent2  : #a060ff;
+  --live     : #e74c3c;
+  --live-off : #6b7280;
+  --line     : #e1e3e8;
+  --border   : #cdd2db;
+}
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: linear-gradient(160deg, #161b22 0%, #0d1117 100%);
+  color: #e6edf3;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ---- header ---- */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 24px;
+  background: linear-gradient(90deg, #1f242d 0%, #262c38 100%);
+  border-bottom: 3px solid var(--accent);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+header h1 {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: .04em;
+  line-height: 1;
+}
+header h1 .brand-span { color: var(--accent2); }
+.subtitle {
+  margin: 3px 0 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* live indicator */
+.live-box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.live-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: var(--live);
+  box-shadow: 0 0 8px var(--live);
+  animation: pulse 1.6s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%,100% { opacity:1; box-shadow:0 0 0 0 var(--live); }
+  50%     { opacity:.55; box-shadow:0 0 0 .12em rgba(231,76,61,.0); }
+}
+
+/* ---- main layout: canvas kiri + panel kanan ---- */
+.office-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 0;
+  min-height: calc(100vh - 110px);
+}
+@media (max-width: 880px) {
+  .office-layout { grid-template-columns: 1fr; }
+  #task-panel { border-top: 3px solid var(--accent); }
+}
+
+/* ---- canvas ---- */
+.canvas-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 560px;
+  display: grid;
+  place-items: center;
+  background: #0a0d12;
+  border-right: 3px solid var(--border);
+  overflow: hidden;
+}
+#office {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  cursor: crosshair;
+  background: #000;
+  border: 2px solid var(--border);
+  box-shadow: 0 0 2px rgba(124,77,255,.6);
+}
+#canvas-hint {
+  position: absolute;
+  bottom: 10px; left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px;
+  color: var(--muted);
+  background: rgba(17,20,24,.8);
+  padding: 4px 10px;
+  border-radius: 6px;
+  pointer-events: none;
+}
+
+/* ---- panel kanan ---- */
+#task-panel {
+  background: var(--panel);
+  color: var(--ink);
+  border-left: 3px solid var(--accent);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  max-height: calc(100vh - 110px);
+}
+.panel-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  padding: 36px 24px;
+  color: var(--muted);
+}
+.ph-emoji { font-size: 32px; }
+.panel-body { padding: 20px; }
+
+/* ---- panel elements ---- */
+.panel-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+.panel-avatar {
+  width: 48px; height: 48px;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+}
+.panel-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ink2);
+}
+.panel-role {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.stage-badge {
+  margin-left: auto;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  white-space: nowrap;
+}
+.stage-badge.working  { background:#fff3cd; color:#856404; border:1px solid #ffe082; }
+.stage-badge.revisi   { background:#ffe2e2; color:#922b21; border:1px solid #f5b2b2; }
+.stage-badge.queue      { background:#e2e8f0; color:#475569; border:1px solid #cbd5e1; }
+.stage-badge.idle       { background:#dcfce8; color:#127a35; border:1px solid #86efac; }
+.stage-badge.done       { background:#dcf7ee; color:#118f8c; border:1px solid #6ee7df; }
+.stage-badge.done2      { background:#dcf7ee; color:#118f8c; border:1px solid #6ee7df; }
+
+.panel-room {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 14px;
+}
+.panel-room strong { color: var(--ink2); }
+
+.section-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  margin: 14px 0 8px;
+}
+.section-title span { color: var(--accent); }
+
+.stage-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+.stage-chip {
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 8px;
+  background: #eef1f7;
+  color: var(--ink2);
+  border: 1px solid var(--border);
+}
+.stage-chip.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* task list */
+#task-list {
+  list-style: none;
+  margin: 0 0 4px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+#task-list li {
+  padding: 8px 10px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--ink2);
+}
+#task-list li.empty {
+  color: var(--muted);
+  font-style: italic;
+  background: #fafbfc;
+}
+.note-box {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 13px;
+  color: var(--ink2);
+  white-space: pre-wrap;
+  min-height: 44px;
+}
+.meta {
+  margin-top: 14px;
+  font-size: 11px;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+}
+.hidden { display: none !important; }
+
+/* ---- footer ---- */
+footer {
+  padding: 10px 24px;
+  background: #1f242d;
+  border-top: 2px solid var(--border);
+  font-size: 12px;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* ---- status icon emoji ---- */
+.status-icon { font-size: 13px; }
