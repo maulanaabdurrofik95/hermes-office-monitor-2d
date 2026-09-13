@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" shape-rendering="crispEdges">
+  <title>Frontend chibi idle frame 0</title>
+  <!-- shadow -->
+  <rect x="12" y="44" width="24" height="2" fill="#000000" opacity="0.18"/>
+  <!-- legs -->
+  <rect x="17" y="36" width="5" height="8" fill="#2C3E50"/>
+  <rect x="26" y="36" width="5" height="8" fill="#2C3E50"/>
+  <!-- body (lavender #9B59B6) -->
+  <rect x="14" y="25" width="20" height="11" fill="#9B59B6"/>
+  <rect x="14" y="25" width="20" height="2" fill="#8E44AD"/>
+  <!-- arms relaxed -->
+  <rect x="10" y="27" width="5" height="8" fill="#9B59B6"/>
+  <rect x="33" y="27" width="5" height="8" fill="#9B59B6"/>
+  <!-- hands -->
+  <rect x="10" y="35" width="5" height="2" fill="#F4C29A"/>
+  <rect x="33" y="35" width="5" height="2" fill="#F4C29A"/>
+  <!-- head -->
+  <rect x="15" y="13" width="18" height="12" fill="#F4C29A"/>
+  <rect x="15" y="13" width="18" height="2" fill="#E0A97A"/>
+  <!-- hair (purple-tinted) -->
+  <rect x="15" y="12" width="18" height="3" fill="#8E44AD"/>
+  <rect x="17" y="11" width="4" height="2" fill="#7D3C98"/>
+  <!-- eyes -->
+  <rect x="19" y="18" width="3" height="3" fill="#2C3E50"/>
+  <rect x="26" y="18" width="3" height="3" fill="#2C3E50"/>
+  <!-- palette accessory (domain) -->
+  <rect x="36" y="15" width="6" height="6" fill="#E74C3C" opacity="0.8"/>
+  <rect x="42" y="15" width="6" height="6" fill="#F39C12" opacity="0.8"/>
+  <rect x="36" y="21" width="6" height="6" fill="#27AE60" opacity="0.8"/>
+  <rect x="42" y="21" width="6" height="6" fill="#3498DB" opacity="0.8"/>
+  <!-- small brush -->
+  <rect x="44" y="25" width="2" height="8" fill="#2C3E50"/>
+  <rect x="43" y="33" width="4" height="2" fill="#2C3E50"/>
+  <!-- smile -->
+  <rect x="22" y="22" width="4" height="1" fill="#C0392B"/>
+</svg>

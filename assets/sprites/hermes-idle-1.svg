@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" shape-rendering="crispEdges">
+  <title>Hermes chibi idle frame 1 (bob +2px)</title>
+  <rect x="12" y="46" width="24" height="2" fill="#000000" opacity="0.18"/>
+  <rect x="17" y="38" width="5" height="8" fill="#2C3E50"/>
+  <rect x="26" y="38" width="5" height="8" fill="#2C3E50"/>
+  <rect x="14" y="27" width="20" height="11" fill="#FFD700"/>
+  <rect x="14" y="27" width="20" height="2" fill="#DAA520"/>
+  <rect x="10" y="29" width="5" height="8" fill="#FFD700"/>
+  <rect x="33" y="29" width="5" height="8" fill="#FFD700"/>
+  <rect x="10" y="37" width="5" height="2" fill="#F4C29A"/>
+  <rect x="33" y="37" width="5" height="2" fill="#F4C29A"/>
+  <rect x="15" y="15" width="18" height="12" fill="#F4C29A"/>
+  <rect x="15" y="15" width="18" height="2" fill="#E0A97A"/>
+  <rect x="15" y="13" width="18" height="3" fill="#FFD700"/>
+  <rect x="17" y="11" width="2" height="3" fill="#FFD700"/>
+  <rect x="21" y="10" width="2" height="4" fill="#FFD700"/>
+  <rect x="25" y="11" width="2" height="3" fill="#FFD700"/>
+  <rect x="19" y="20" width="3" height="3" fill="#2C3E50"/>
+  <rect x="26" y="20" width="3" height="3" fill="#2C3E50"/>
+  <rect x="16" y="18" width="1" height="1" fill="#FFF"/>
+  <rect x="28" y="18" width="1" height="1" fill="#FFF"/>
+  <rect x="22" y="24" width="4" height="1" fill="#DAA520"/>
+  <rect x="13" y="14" width="22" height="2" fill="#2C3E50"/>
+  <rect x="13" y="14" width="2" height="7" fill="#2C3E50"/>
+  <rect x="33" y="14" width="2" height="7" fill="#2C3E50"/>
+  <rect x="35" y="27" width="8" height="6" fill="#2C3E50"/>
+  <rect x="36" y="28" width="6" height="4" fill="#FFD700" opacity="0.6"/>
+</svg>

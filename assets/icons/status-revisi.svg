@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <title>Status: Revisi (warning)</title>
+  <polygon points="8,2 15,14 1,14" fill="#F39C12"/>
+  <polygon points="8,2 15,14 1,14" fill="none" stroke="#D35400" stroke-width="0.5"/>
+  <rect x="7" y="6" width="2" height="4" fill="#FFFFFF"/>
+  <rect x="7" y="11" width="2" height="2" fill="#FFFFFF"/>
+</svg>

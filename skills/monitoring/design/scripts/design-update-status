@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# design-update-status — update data/design.json + push (live dashboard).
+# Usage: design-update-status --stage <stage> [--task "..."] [--note "..."]
+set -euo pipefail
+ROOT="$(git rev-parse --show-toplevel 2>/dev/null | tr -d '\r')"
+[ -n "$ROOT" ] || { echo "Error: not in git repo. cd ke repo dulu." >&2; exit 1; }
+exec python "$ROOT/scripts/update_status.py" --agent design "$@"

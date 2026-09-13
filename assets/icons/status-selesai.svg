@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <title>Status: Selesai (checkmark)</title>
+  <circle cx="8" cy="8" r="7" fill="#27AE60"/>
+  <polygon points="4,8 6.5,10.5 12,5 12,7 6.5,12.5 4,10" fill="#FFFFFF"/>
+</svg>
