@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "office": "Hermes Office - Virtual 2D Chibi",
+  "characters": {
+    "hermes": {
+      "agent": "Hermes",
+      "color": "#FFD700",
+      "role": "Orquestrator",
+      "position": {"x": 375, "y": 275},
+      "sprite": "hermes-idle.png",
+      "accessory": "monitor",
+      "status": "monitoring",
+      "tasks": ["Orchestrate workflow", "Monitor agents"],
+      "description": "Hermes overseeing the virtual office"
+    },
+    "dev": {
+      "agent": "Dev",
+      "color": "#4A90D9",
+      "role": "Developer",
+      "position": {"x": 100, "y": 150},
+      "room": "Backend Room",
+      "sprite": "dev-pixel-chibi.png",
+      "accessory": "laptop",
+      "status": "idle",
+      "tasks": [],
+      "description": "Handles backend development and infrastructure"
+    },
+    "frontend": {
+      "agent": "Frontend",
+      "color": "#9B59B6",
+      "role": "Frontend Developer",
+      "position": {"x": 600, "y": 150},
+      "room": "Frontend Room",
+      "sprite": "frontend-pixel-chibi.png",
+      "accessory": "palette",
+      "status": "idle",
+      "tasks": [],
+      "description": "Builds UI components and visual interfaces"
+    },
+    "security": {
+      "agent": "Security",
+      "color": "#E74C3C",
+      "role": "Security Analyst",
+      "position": {"x": 100, "y": 400},
+      "room": "Security Room",
+      "sprite": "security-pixel-chibi.png",
+      "accessory": "shield",
+      "status": "idle",
+      "tasks": [],
+      "description": "Reviews code for vulnerabilities and security gaps"
+    },
+    "design": {
+      "agent": "Design",
+      "color": "#F39C12",
+      "role": "UI/UX Designer",
+      "position": {"x": 600, "y": 400},
+      "room": "Design Room",
+      "sprite": "design-pixel-chibi.png",
+      "accessory": "pencil",
+      "status": "idle",
+      "tasks": [],
+      "description": "Creates visual designs and user experience layouts"
+    }
+  },
+  "rooms": [
+    {"id": "dev-room", "title": "Backend Room", "color": "#4A90D9"},
+    {"id": "frontend-room", "title": "Frontend Room", "color": "#9B59B6"},
+    {"id": "security-room", "title": "Security Room", "color": "#E74C3C"},
+    {"id": "design-room", "title": "Design Room", "color": "#F39C12"}
+  ]
+}

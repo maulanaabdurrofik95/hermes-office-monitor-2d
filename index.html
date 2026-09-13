@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hermes Office Monitor</title>
+  <!-- Pixel Art Chibi 2D Office Monitor -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🏢 Hermes Office Monitor</h1>
+    <p class="subtitle">Live status tiap agent di kantor virtual</p>
+  </header>
+
+  <main id="office-scene">
+    <canvas id="office" width="800" height="600"></canvas>
+    <!-- Panel detail tugas -->
+    <aside id="task-panel">
+      <h2 id="panel-title">Pilih karakter</h2>
+      <ul id="task-list"></ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Update terakhir: <span id="last-update">--</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
