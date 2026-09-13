@@ -1,10 +1,11 @@
 {
   "agent": "security",
-  "stage": "in-review",
+  "stage": "in-progress",
   "tasks": [
     "Audit landing page",
-    "Audit landing page maulanaabdurrofik.id (draft security-audit.md)"
+    "Audit landing page maulanaabdurrofik.id (draft security-audit.md)",
+    "Security gates"
   ],
-  "note": "Security audit draft done, nunggu approval",
-  "updatedAt": "2026-09-13T11:45:19+07:00"
+  "note": "Scan dist, grep pantangan, .htaccess verify",
+  "updatedAt": "2026-09-13T12:09:21+07:00"
 }
