@@ -1,10 +1,10 @@
 {
   "agent": "design",
-  "stage": "working",
+  "stage": "in-review",
   "tasks": [
     "Spec tema darkblue glassmorphism",
     "Design PRD draft: darkblue glassmorphism theme spec"
   ],
-  "note": "Created design-prd.md with palette tokens, glass spec, section layout, typography",
-  "updatedAt": "2026-09-13T11:42:04+07:00"
+  "note": "design-prd.md ready at maulanaabdurrofik.id/docs/design-prd.md",
+  "updatedAt": "2026-09-13T11:42:27+07:00"
 }
