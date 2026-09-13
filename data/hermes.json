@@ -4,9 +4,8 @@
   "tasks": [
     "Orchestrate workflow",
     "Monitor agents",
-    "Gate approval",
-    "Gating PRD"
+    "Gate approval"
   ],
-  "note": "Reviewing design draft",
-  "updatedAt": "2026-09-13T10:33:21+07:00"
+  "note": "Orchestrating the build team.",
+  "updatedAt": "2026-09-13T10:34:16+07:00"
 }
