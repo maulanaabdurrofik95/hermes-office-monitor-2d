@@ -1,9 +1,9 @@
 {
   "agent": "dev",
-  "stage": "working",
+  "stage": "idle",
   "tasks": [
     "Distribusi brief ke agent"
   ],
-  "note": "Brief landing page ke frontend/design/dev/security",
-  "updatedAt": "2026-09-13T11:38:21+07:00"
+  "note": "Menunggu tugas deploy setelah approval",
+  "updatedAt": "2026-09-13T11:45:20+07:00"
 }
