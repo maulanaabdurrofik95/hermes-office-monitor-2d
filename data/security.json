@@ -2,8 +2,9 @@
   "agent": "security",
   "stage": "working",
   "tasks": [
-    "Audit landing page"
+    "Audit landing page",
+    "Audit landing page maulanaabdurrofik.id (draft security-audit.md)"
   ],
-  "note": "Security scan, pantangan check",
-  "updatedAt": "2026-09-13T11:38:22+07:00"
+  "note": "Draft completed: risk checklist + Vite+Hostinger mitigations. Pre-build audit based on design-prd.md.",
+  "updatedAt": "2026-09-13T11:41:53+07:00"
 }
