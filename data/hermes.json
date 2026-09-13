@@ -1,13 +1,14 @@
 {
   "agent": "hermes",
-  "stage": "working",
+  "stage": "in-review",
   "tasks": [
     "Orchestrate workflow",
     "Monitor agents",
     "Gate approval",
     "PRD synthesis",
-    "Model mapping configured"
+    "Model mapping configured",
+    "PRD final synthesized"
   ],
-  "note": "frontend=Coder, dev=Coder, design=Vision, security=Analisis. Delegating PRD drafts now.",
-  "updatedAt": "2026-09-13T11:43:07+07:00"
+  "note": "PRD-final.md siap review. Tunggu approval BangOos.",
+  "updatedAt": "2026-09-13T11:45:19+07:00"
 }
