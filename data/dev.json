@@ -1,7 +1,9 @@
 {
   "agent": "dev",
-  "stage": "revisi",
-  "tasks": [],
-  "note": "Fix bug",
-  "updatedAt": "2026-09-13T11:29:12+07:00"
+  "stage": "working",
+  "tasks": [
+    "Distribusi brief ke agent"
+  ],
+  "note": "Brief landing page ke frontend/design/dev/security",
+  "updatedAt": "2026-09-13T11:38:21+07:00"
 }
