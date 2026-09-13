@@ -1,10 +1,10 @@
 {
   "agent": "frontend",
-  "stage": "working",
+  "stage": "in-review",
   "tasks": [
     "Build landing page",
     "Draft frontend PRD untuk maulanaabdurrofik.id"
   ],
-  "note": "PRD draft selesai, menunggu ACC scaffolding",
-  "updatedAt": "2026-09-13T11:41:08+07:00"
+  "note": "PRD draft done, nunggu approval",
+  "updatedAt": "2026-09-13T11:45:19+07:00"
 }
