@@ -5,8 +5,9 @@
     "Orchestrate workflow",
     "Monitor agents",
     "Gate approval",
-    "PRD synthesis"
+    "PRD synthesis",
+    "Model mapping configured"
   ],
-  "note": "Brief distributed to frontend/design/security. Awaiting PRD draft.",
-  "updatedAt": "2026-09-13T11:39:23+07:00"
+  "note": "frontend=Coder, dev=Coder, design=Vision, security=Analisis. Delegating PRD drafts now.",
+  "updatedAt": "2026-09-13T11:43:07+07:00"
 }
