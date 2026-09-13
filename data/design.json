@@ -1,7 +1,9 @@
 {
   "agent": "design",
-  "stage": "idle",
-  "tasks": [],
-  "note": "Waiting for assignment.",
-  "updatedAt": "2026-09-13T10:34:13+07:00"
+  "stage": "working",
+  "tasks": [
+    "Spec tema darkblue glassmorphism"
+  ],
+  "note": "Palette, typography, glass effect spec",
+  "updatedAt": "2026-09-13T11:38:22+07:00"
 }
