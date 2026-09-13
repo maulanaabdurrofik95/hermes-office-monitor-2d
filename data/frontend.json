@@ -1,10 +1,11 @@
 {
   "agent": "frontend",
-  "stage": "in-review",
+  "stage": "in-progress",
   "tasks": [
     "Build landing page",
-    "Draft frontend PRD untuk maulanaabdurrofik.id"
+    "Draft frontend PRD untuk maulanaabdurrofik.id",
+    "Build landing page"
   ],
-  "note": "PRD draft done, nunggu approval",
-  "updatedAt": "2026-09-13T11:45:19+07:00"
+  "note": "Scaffold Vite + React, theme darkblue glassmorphism, 7 proyek, Three.js hero",
+  "updatedAt": "2026-09-13T12:09:21+07:00"
 }
