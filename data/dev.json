@@ -1,11 +1,12 @@
 {
   "agent": "dev",
-  "stage": "in-progress",
+  "stage": "working",
   "tasks": [
     "Distribusi brief ke agent",
     "Implement admin dashboard + WA link",
-    "Admin + deploy pipeline"
+    "Admin + deploy pipeline",
+    "Fix admin auth + .htaccess + PHP API"
   ],
-  "note": "Dashboard CRUD, .htaccess Hostinger, build script",
-  "updatedAt": "2026-09-13T12:09:21+07:00"
+  "note": "Password hardcoded fix, .htaccess untuk Hostinger, PHP backend untuk admin CRUD",
+  "updatedAt": "2026-09-13T12:27:06+07:00"
 }
