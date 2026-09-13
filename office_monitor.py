@@ -363,7 +363,8 @@ def draw_room(s, rect_, title, color, font_small, frame):
     # border
     pygame.draw.rect(s, WALL, rect_, 3)
     # room title tag
-    tag_w = 70
+    tw = font_small.size(title)[0] + 16
+    tag_w = max(92, tw)
     tag_h = 22
     rect(s, color, x + 8, y + 6, tag_w, tag_h)
     draw_text(s, font_small, title, TEXT, x + 8 + tag_w // 2, y + 6 + tag_h // 2,
@@ -464,28 +465,21 @@ def main():
     last_poll = 0.0
     frame = 0
 
-    # room geometry (leaving center hallway for Hermes lobby)
+    # room geometry: 4 corner rooms + full-height center lobby (Hermes)
     margin = 8
     inner_gap = 8
-    top_h = 300
-    mid_w = 500
-    bot_h = HEIGHT - top_h - margin - 34   # reserve bottom bar
-    top_h = 292
-    bot_h = HEIGHT - top_h - margin - 40
+    lobby_w = 260
+    room_w = (WIDTH - 2 * margin - 2 * inner_gap - lobby_w) // 2
+    top_y = margin
+    room_h = (HEIGHT - margin - 34 - margin - inner_gap) // 2
+    bot_y = top_y + room_h + inner_gap
 
-    room_w = (mid_w - margin - inner_gap) // 2
-    room_h = (top_h - margin - inner_gap) // 2
-
-    # 4 corner rooms
-    room_dev = (margin, margin, room_w, room_h)
-    room_fe  = (margin + room_w + inner_gap, margin, room_w, room_h)
-    room_sec = (margin, margin + room_h + inner_gap, room_w, room_h)
-    room_dsg = (margin + room_w + inner_gap, margin + room_h + inner_gap, room_w, room_h)
-
-    # center hallway / lobby
-    hall = (room_w + margin + inner_gap + 4, margin + 4,
-            mid_w - 2 * (room_w + margin + inner_gap) - 8,
-            room_h * 2 + inner_gap - 8)
+    room_dev  = (margin, top_y, room_w, room_h)
+    room_fe   = (WIDTH - margin - room_w, top_y, room_w, room_h)
+    room_sec  = (margin, bot_y, room_w, room_h)
+    room_dsg  = (WIDTH - margin - room_w, bot_y, room_w, room_h)
+    hall      = (margin + room_w + inner_gap, top_y, lobby_w,
+                 (bot_y + room_h - top_y) - inner_gap)
 
     # desk positions (center of each room)
     def center(r):
