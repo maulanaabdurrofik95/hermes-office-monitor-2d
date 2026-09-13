@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" id="floor-tile">
+  <title>Floor tile pattern</title>
+  <defs>
+    <pattern id="floor-tile" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="#F4F1EA"/>
+      <path d="M0 0 L50 0 M0 50 L50 50 M0 0 L0 50 M50 0 L50 50" stroke="#E0D6C2" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="50" height="50" fill="url(#floor-tile)"/>
+</svg>

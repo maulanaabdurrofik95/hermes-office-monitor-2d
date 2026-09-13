@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <title>Hermes Office room layout (top-down)</title>
+  <!-- floor: off-white grid -->
+  <rect x="0" y="0" width="800" height="600" fill="#F4F1EA"/>
+  <!-- grid lines (subtle) -->
+  <g stroke="#E0D6C2" stroke-width="1">
+    <line x1="0" y1="0" x2="800" y2="0"/>
+    <line x1="0" y1="50" x2="800" y2="50"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="450" x2="800" y2="450"/>
+    <line x1="0" y1="500" x2="800" y2="500"/>
+    <line x1="0" y1="550" x2="800" y2="550"/>
+    <line x1="0" y1="600" x2="800" y2="600"/>
+    <line x1="100" y1="0" x2="100" y2="600"/>
+    <line x1="250" y1="0" x2="250" y2="600"/>
+    <line x1="550" y1="0" x2="550" y2="600"/>
+    <line x1="700" y1="0" x2="700" y2="600"/>
+  </g>
+  <!-- Dev Room (blue) -->
+  <rect x="100" y="100" width="150" height="150" fill="#4A90D9" stroke="#357ABD" stroke-width="1"/>
+  <!-- Frontend Room (purple) -->
+  <rect x="600" y="100" width="150" height="150" fill="#9B59B6" stroke="#8E44AD" stroke-width="1"/>
+  <!-- Security Room (red) -->
+  <rect x="100" y="400" width="150" height="150" fill="#E74C3C" stroke="#C0392B" stroke-width="1"/>
+  <!-- Design Room (orange) -->
+  <rect x="600" y="400" width="150" height="150" fill="#F39C12" stroke="#E67E22" stroke-width="1"/>
+  <!-- Lobby (off-white) -->
+  <rect x="200" y="150" width="400" height="300" fill="#F4F1EA" stroke="#E0D6C2" stroke-width="1"/>
+  <!-- Lobby long table -->
+  <rect x="275" y="265" width="250" height="30" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  <!-- Lobby big monitor on wall -->
+  <rect x="340" y="240" width="120" height="60" fill="#2980B9" stroke="#1a5276" stroke-width="1"/>
+  <rect x="342" y="242" width="116" height="56" fill="#3498DB" opacity="0.3"/>
+  <!-- Doors (all rooms) -->
+  <rect x="150" y="98" width="8" height="4" fill="#2C3E50"/>
+  <rect x="650" y="98" width="8" height="4" fill="#2C3E50"/>
+  <rect x="150" y="398" width="8" height="4" fill="#2C3E50"/>
+  <rect x="650" y="398" width="8" height="4" fill="#2C3E50"/>
+  <!-- Desk + chair in each room -->
+  <rect x="130" y="160" width="40" height="20" fill="#8B4513"/>
+  <rect x="128" y="182" width="6" height="6" fill="#666666"/>
+  <rect x="630" y="160" width="40" height="20" fill="#8B4513"/>
+  <rect x="660" y="182" width="6" height="6" fill="#666666"/>
+  <rect x="130" y="450" width="40" height="20" fill="#8B4513"/>
+  <rect x="128" y="472" width="6" height="6" fill="#666666"/>
+  <rect x="630" y="450" width="40" height="20" fill="#8B4513"/>
+  <rect x="660" y="472" width="6" height="6" fill="#666666"/>
+  <!-- Agent spawn positions (center of each room) -->
+  <circle cx="175" cy="175" r="3" fill="#000000" opacity="0.3"/>
+  <circle cx="675" cy="175" r="3" fill="#000000" opacity="0.3"/>
+  <circle cx="175" cy="475" r="3" fill="#000000" opacity="0.3"/>
+  <circle cx="675" cy="475" r="3" fill="#000000" opacity="0.3"/>
+  <circle cx="375" cy="275" r="3" fill="#FFD700"/>
+  <!-- Labels -->
+  <text x="175" y="285" font-family="monospace" font-size="10" fill="#2C3E50" text-anchor="middle">Lobby</text>
+  <text x="175" y="85" font-family="monospace" font-size="10" fill="#2C3E50" text-anchor="middle">Backend</text>
+  <text x="675" y="85" font-family="monospace" font-size="10" fill="#2C3E50" text-anchor="middle">Frontend</text>
+  <text x="175" y="585" font-family="monospace" font-size="10" fill="#2C3E50" text-anchor="middle">Security</text>
+  <text x="675" y="585" font-family="monospace" font-size="10" fill="#2C3E50" text-anchor="middle">Design</text>
+</svg>
