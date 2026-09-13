@@ -1,10 +1,11 @@
 {
   "agent": "dev",
-  "stage": "working",
+  "stage": "in-progress",
   "tasks": [
     "Distribusi brief ke agent",
-    "Implement admin dashboard + WA link"
+    "Implement admin dashboard + WA link",
+    "Admin + deploy pipeline"
   ],
-  "note": "OQ-1 WA, OQ-2 admin CRUD, OQ-3 admin profile upload",
-  "updatedAt": "2026-09-13T11:55:35+07:00"
+  "note": "Dashboard CRUD, .htaccess Hostinger, build script",
+  "updatedAt": "2026-09-13T12:09:21+07:00"
 }
