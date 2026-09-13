@@ -1,10 +1,11 @@
 {
   "agent": "design",
-  "stage": "in-review",
+  "stage": "in-progress",
   "tasks": [
     "Spec tema darkblue glassmorphism",
-    "Design PRD draft: darkblue glassmorphism theme spec"
+    "Design PRD draft: darkblue glassmorphism theme spec",
+    "Implement theme"
   ],
-  "note": "Design PRD done, nunggu approval",
-  "updatedAt": "2026-09-13T11:45:19+07:00"
+  "note": "Glass tokens, bottom grid dock mobile, gold accent",
+  "updatedAt": "2026-09-13T12:09:21+07:00"
 }
