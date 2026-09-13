@@ -4,8 +4,9 @@
   "tasks": [
     "Build landing page",
     "Draft frontend PRD untuk maulanaabdurrofik.id",
+    "Build landing page",
     "Build landing page"
   ],
-  "note": "Scaffold Vite + React, theme darkblue glassmorphism, 7 proyek, Three.js hero",
-  "updatedAt": "2026-09-13T12:09:21+07:00"
+  "note": "Scaffolding Vite+React+TS+Tailwind, building all sections",
+  "updatedAt": "2026-09-13T12:10:19+07:00"
 }
