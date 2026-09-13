@@ -5,8 +5,12 @@
     "Build landing page",
     "Draft frontend PRD untuk maulanaabdurrofik.id",
     "Build landing page",
-    "Build landing page"
+    "Build landing page",
+    "Build landing page",
+    "Scaffold: Vite+React+TS+Tailwind, 7 projects, mobile dock",
+    "Build: tsc + npm run build OK",
+    "Fix: import paths, router Hash, data JSON"
   ],
-  "note": "Scaffolding Vite+React+TS+Tailwind, building all sections",
-  "updatedAt": "2026-09-13T12:10:19+07:00"
+  "note": "All sections wired, dist/ builds clean. Testing localhost.",
+  "updatedAt": "2026-09-13T12:36:37+07:00"
 }
