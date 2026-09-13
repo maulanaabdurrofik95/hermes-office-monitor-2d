@@ -2,8 +2,9 @@
   "agent": "design",
   "stage": "working",
   "tasks": [
-    "Spec tema darkblue glassmorphism"
+    "Spec tema darkblue glassmorphism",
+    "Design PRD draft: darkblue glassmorphism theme spec"
   ],
-  "note": "Palette, typography, glass effect spec",
-  "updatedAt": "2026-09-13T11:38:22+07:00"
+  "note": "Created design-prd.md with palette tokens, glass spec, section layout, typography",
+  "updatedAt": "2026-09-13T11:42:04+07:00"
 }
