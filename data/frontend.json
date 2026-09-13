@@ -2,8 +2,9 @@
   "agent": "frontend",
   "stage": "working",
   "tasks": [
-    "Build landing page"
+    "Build landing page",
+    "Draft frontend PRD untuk maulanaabdurrofik.id"
   ],
-  "note": "Darkblue glassmorphism tema, Node.js/Vite",
-  "updatedAt": "2026-09-13T11:38:22+07:00"
+  "note": "PRD draft selesai, menunggu ACC scaffolding",
+  "updatedAt": "2026-09-13T11:41:08+07:00"
 }
